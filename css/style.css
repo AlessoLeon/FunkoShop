@@ -1,0 +1,32 @@
+/* Selector Universal */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Se come el contenido achicando la caja */
+    /* box-sizing: content-box; <<<<==== Esta hace que agrande la caja Original */
+}
+
+/* Todos los estilos que coloquemos en HTML seran heredables */
+html{
+    font-size: 62.5%; /* Esto quiere decir que estoy seteando: ( 16px === 1em ) Seteado a [ 10px === 1em ] */
+    color: #111111;
+}
+
+/* Decoracion de Enlaces */
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: inherit; /* Color Heredado */
+}
+
+/* Decoracion de Listas Ordenadas y Desordenadas */
+ul, ol{
+    list-style-type: none;
+}
+
+/* Decoracion de los Parrafos */
+p {
+    font-size: 1.8em;
+}
