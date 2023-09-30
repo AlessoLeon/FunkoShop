@@ -1,3 +1,7 @@
+/* Importaciones de Familias Tipograficas */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
 /* Selector Universal */
 *,
 *::before,
@@ -10,6 +14,7 @@
 
 /* Todos los estilos que coloquemos en HTML seran heredables */
 html{
+    font-family: 'Inter', sans-serif;
     font-size: 62.5%; /* Esto quiere decir que estoy seteando: ( 16px === 1em ) Seteado a [ 10px === 1em ] */
     color: #111111;
 }
@@ -18,7 +23,13 @@ html{
 a {
     text-decoration: none;
     font-size: 2em;
-    color: inherit; /* Color Heredado */
+    font-family: inherit; /* Simepre tomara la Tipografia Heredado "Raleway" */
+    color: inherit; /* Simepre tomara el Color Heredado */
+}
+
+header, footer {
+    font-family: 'Raleway', sans-serif;
+    color: beige;
 }
 
 /* Decoracion de Listas Ordenadas y Desordenadas */
@@ -29,4 +40,10 @@ ul, ol{
 /* Decoracion de los Parrafos */
 p {
     font-size: 1.8em;
+}
+
+/* Medidas del Contenedor Principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
