@@ -42,6 +42,7 @@
     --spacing-68: 6.8rem;
     --spacing-36: 3.6rem;
     --spacing-28: 2.8rem;
+    --spacing-20: 2.0rem;
     --spacing-16: 1.6rem;
     --spacing-12: 1.2rem;
     --spacing-8: 0.8rem;
@@ -92,4 +93,21 @@ p {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* == HEADER == */
+header {
+    background-color: var(--dark-bg-solid);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-20);
 }
