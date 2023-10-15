@@ -98,7 +98,7 @@ img {
     margin: 0 auto;
 }
 
-/* == HEADER == */
+/* == HEADER Start == */
 header {
     background-color: var(--dark-bg-solid);
     padding: var(--spacing-36);
@@ -149,8 +149,21 @@ header {
     background-color: var(--dark-bg-solid);
 }
 
-.submenu__item {
+.submenu__link {
     display: block;
     padding: var(--spacing-8) var(--spacing-16);
     font-size: var(--font-medium);
+    transition: background .3s ease-in-out;
+}
+
+.submenu__link:hover {
+    background-color: var(--primary-900);
+}
+
+/* == HEADER End == */
+
+/* == Banner Start == */
+
+.banner {
+    background-image: url(../img/funkos-banner.webp);
 }
