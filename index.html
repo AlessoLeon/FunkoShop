@@ -20,14 +20,25 @@
                 </a>
             </picture>
             <ul class="navbar__menu">            <!-- Navegación de 4 Items del Navbar -->
-                <li class="navbar__item"> 
-                    <a class="nabvar__link" href="./pages/shop.html">SHOP</a>
+                <li class="navbar__item with-submenu"> 
+                    <a class="navbar__link with-icon" href="./pages/shop.html">SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon></a>
+                    <ul class="submenu">                <!-- Navegación de 3 Items del Submenu -->
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Funkos</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Remeras</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">LLaveros</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="navbar__item">
-                    <a class="nabvar__link" href="./pages/contact.html">CONTAC</a>
+                    <a class="navbar__link" href="./pages/contact.html">CONTAC</a>
                 </li>
                 <li class="navbar__item">
-                    <a class="nabvar__link" href="./pages/login.html">LOGIN</a>
+                    <a class="navbar__link" href="./pages/login.html">LOGIN</a>
                 </li>
                 <li class="navbar__item">
                     <a class="navbar__cart" href="./pages/cart.html"><img src="./img/icons/cart-icon.svg" alt="icono de carrito"></a>
@@ -154,6 +165,8 @@
         </section>
         <p>All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> <!-- Icono de Chevron-Down -->
 </body>
 
 </html>
