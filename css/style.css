@@ -167,3 +167,7 @@ header {
 .banner {
     background-image: url(../img/funkos-banner.webp);
 }
+
+.banner__content {
+    display: flex;
+}
