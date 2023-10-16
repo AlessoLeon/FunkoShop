@@ -369,8 +369,9 @@ header {
     text-align: center;
 }
 
-/* ANIMATIONS Start */
+/* == FOOTER End == */
 
+/* ANIMATIONS Start */
 @keyframes fade {
     0% {
         opacity: 0;
@@ -380,5 +381,4 @@ header {
         opacity: 1;
     }
 }
-
 /* ANIMATIONS End */
